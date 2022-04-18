@@ -27,4 +27,22 @@ select {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(209deg, 33%, 12%);
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  max-width: 53.375rem;
+  margin-inline: auto;
 }/*# sourceMappingURL=main.css.map */
