@@ -1,0 +1,20 @@
+// Import Font
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+// Container width
+$max-width: 53.375rem;
+
+// Font weight
+$fw-base: 300;
+$fw-btn: 600;
+$fw-bold: 700;
+
+// Colors
+$clr-primary-200: hsl(209, 33%, 12%);
+$clr-primary-400: hsl(223, 87%, 63%);
+$clr-primary-600: hsl(223, 100%, 88%);
+
+$clr-secondary: hsl(354, 100%, 66%);
+
+$clr-neutral-500: hsl(0, 0%, 59%);
+$clr-neutral-1000: hsl(0, 0%, 100%);
