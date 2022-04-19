@@ -1,0 +1,13 @@
+@media (max-width: 48rem) {
+	// Subscribe Notice
+	.notice {
+		.heading {
+			font-size: 2rem;
+		}
+
+		.subscribe-form {
+			display: grid;
+			grid-template-columns: 1fr;
+		}
+	}
+}

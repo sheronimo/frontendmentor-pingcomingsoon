@@ -147,4 +147,14 @@ body {
 .footer .copyright {
   font-size: 0.75rem;
   color: hsl(0deg, 0%, 59%);
+}
+
+@media (max-width: 48rem) {
+  .notice .heading {
+    font-size: 2rem;
+  }
+  .notice .subscribe-form {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=main.css.map */
