@@ -17,6 +17,7 @@ form.addEventListener('submit', (e) => {
 	if (errorMessage.length > 0) {
 		e.preventDefault();
 		error.innerText = errorMessage;
+		error.style.display = 'block';
 		email.style.borderColor = 'hsl(354, 100%, 66%)';
 	}
 });

@@ -97,6 +97,7 @@ body {
   border-color: hsl(223deg, 87%, 63%);
 }
 .notice .subscribe-form .form-group .error {
+  display: none;
   text-align: left;
   font-style: italic;
   font-size: 0.75rem;
@@ -164,5 +165,9 @@ body {
   .notice .subscribe-form {
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .notice .subscribe-form .form-group .error {
+    text-align: center;
+    padding-inline: 0;
   }
 }/*# sourceMappingURL=main.css.map */
