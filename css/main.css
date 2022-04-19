@@ -40,10 +40,65 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  line-height: 1.5;
 }
 
 .container {
   max-width: 53.375rem;
   margin-inline: auto;
   padding-inline: 3.5rem;
+}
+
+.notice {
+  margin-top: 2.625rem;
+}
+.notice .heading {
+  font-weight: 300;
+  font-size: 2.8125rem;
+  color: hsl(0deg, 0%, 59%);
+  margin-bottom: 0.5rem;
+}
+.notice .heading .bold {
+  font-weight: 700;
+  color: hsl(209deg, 33%, 12%);
+}
+.notice .lead {
+  font-size: 1.25rem;
+  margin-bottom: 2.625rem;
+}
+.notice .subscribe-form {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 1rem;
+  align-items: center;
+}
+.notice .subscribe-form .email {
+  border-radius: 31.25rem;
+  border: 2px solid hsl(223deg, 100%, 88%);
+  padding: 0.9375rem 1.875rem;
+}
+.notice .subscribe-form .email::-moz-placeholder {
+  color: hsl(223deg, 100%, 88%);
+}
+.notice .subscribe-form .email:-ms-input-placeholder {
+  color: hsl(223deg, 100%, 88%);
+}
+.notice .subscribe-form .email::placeholder {
+  color: hsl(223deg, 100%, 88%);
+}
+.notice .subscribe-form .email:focus {
+  border: 0;
+  border-color: hsl(223deg, 87%, 63%);
+}
+.notice .subscribe-form .btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 31.25rem;
+  padding: 1rem 3rem;
+  background-color: hsl(223deg, 87%, 63%);
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 600;
+}
+.notice .subscribe-form .btn:hover {
+  background-color: hsl(224deg, 87%, 70%);
 }/*# sourceMappingURL=main.css.map */
