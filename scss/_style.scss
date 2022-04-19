@@ -51,20 +51,31 @@ body {
 		display: grid;
 		grid-template-columns: 2fr 1fr;
 		grid-gap: 1rem;
-		align-items: center;
+		align-items: flex-start;
 
-		.email {
-			border-radius: 31.25rem;
-			border: 2px solid $clr-primary-600;
-			padding: 0.9375rem 1.875rem;
+		.form-group {
+			.email {
+				border-radius: 31.25rem;
+				border: 2px solid $clr-primary-600;
+				padding: 0.9375rem 1.875rem;
+				width: 100%;
 
-			&::placeholder {
-				color: $clr-primary-600;
+				&::placeholder {
+					color: $clr-primary-600;
+				}
+
+				&:focus {
+					border: 0;
+					border-color: $clr-primary-400;
+				}
 			}
 
-			&:focus {
-				border: 0;
-				border-color: $clr-primary-400;
+			.error {
+				text-align: left;
+				font-style: italic;
+				font-size: 0.75rem;
+				padding: 0.6875rem 1.875rem;
+				color: $clr-secondary;
 			}
 		}
 

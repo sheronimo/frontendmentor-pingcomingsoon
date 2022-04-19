@@ -48,15 +48,18 @@
 					</h1>
 					<p class="lead">Subscribe and get notified</p>
 					<!-- Subscribe Form -->
-					<form class="subscribe-form" id="subscribe-form">
-						<input
-							type="email"
-							name="email"
-							id="email"
-							class="email"
-							placeholder="Your email address..."
-							class="email"
-						/>
+					<form class="subscribe-form" id="subscribe-form" novalidate>
+						<div class="form-group">
+							<input
+								type="email"
+								name="email"
+								id="email"
+								class="email"
+								placeholder="Your email address..."
+								class="email"
+							/>
+							<p class="error" id="error"></p>
+						</div>
 						<input type="submit" value="Notify Me" class="btn" />
 					</form>
 				</section>

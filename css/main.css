@@ -75,25 +75,33 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 1rem;
-  align-items: center;
+  align-items: flex-start;
 }
-.notice .subscribe-form .email {
+.notice .subscribe-form .form-group .email {
   border-radius: 31.25rem;
   border: 2px solid hsl(223deg, 100%, 88%);
   padding: 0.9375rem 1.875rem;
+  width: 100%;
 }
-.notice .subscribe-form .email::-moz-placeholder {
+.notice .subscribe-form .form-group .email::-moz-placeholder {
   color: hsl(223deg, 100%, 88%);
 }
-.notice .subscribe-form .email:-ms-input-placeholder {
+.notice .subscribe-form .form-group .email:-ms-input-placeholder {
   color: hsl(223deg, 100%, 88%);
 }
-.notice .subscribe-form .email::placeholder {
+.notice .subscribe-form .form-group .email::placeholder {
   color: hsl(223deg, 100%, 88%);
 }
-.notice .subscribe-form .email:focus {
+.notice .subscribe-form .form-group .email:focus {
   border: 0;
   border-color: hsl(223deg, 87%, 63%);
+}
+.notice .subscribe-form .form-group .error {
+  text-align: left;
+  font-style: italic;
+  font-size: 0.75rem;
+  padding: 0.6875rem 1.875rem;
+  color: hsl(354deg, 100%, 66%);
 }
 .notice .subscribe-form .btn {
   cursor: pointer;

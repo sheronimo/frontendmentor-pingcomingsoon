@@ -8,6 +8,11 @@
 		.subscribe-form {
 			display: grid;
 			grid-template-columns: 1fr;
+
+			.form-group {
+				.error {
+					padding-inline: 0;
+				}
 		}
 	}
 }
