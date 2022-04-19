@@ -76,6 +76,7 @@ body {
 			background-color: $clr-primary-400;
 			color: $clr-neutral-1000;
 			font-weight: $fw-btn;
+			transition: all 0.3s ease;
 
 			&:hover {
 				background-color: hsl(224, 87%, 70%);
@@ -92,4 +93,42 @@ body {
 // Footer
 .footer {
 	margin-top: 4.5rem;
+
+	.sns {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.75rem;
+		margin-bottom: 1.5rem;
+
+		.sns-link {
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+			width: 2rem;
+			aspect-ratio: 1;
+			border: 1px solid $clr-primary-600;
+			border-radius: 50%;
+			transition: all 0.3s ease;
+
+			.sns-icon {
+				font-size: 0.875rem;
+				color: $clr-primary-400;
+			}
+
+			&:hover {
+				background-color: $clr-primary-400;
+				border-color: $clr-primary-400;
+
+				.sns-icon {
+					color: $clr-neutral-1000;
+				}
+			}
+		}
+	}
+
+	.copyright {
+		font-size: 0.75rem;
+		color: $clr-neutral-500;
+	}
 }
