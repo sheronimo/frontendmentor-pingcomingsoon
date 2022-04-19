@@ -11,6 +11,7 @@ body {
 	justify-content: center;
 	text-align: center;
 	line-height: 1.5;
+	padding-block: 3.125rem;
 }
 
 // Container Utility
@@ -18,6 +19,11 @@ body {
 	max-width: $max-width;
 	margin-inline: auto;
 	padding-inline: 3.5rem;
+}
+
+// Header
+.header {
+	margin-top: 2.25rem;
 }
 
 // Subscribe Notice

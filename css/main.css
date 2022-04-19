@@ -41,12 +41,17 @@ body {
   justify-content: center;
   text-align: center;
   line-height: 1.5;
+  padding-block: 3.125rem;
 }
 
 .container {
   max-width: 53.375rem;
   margin-inline: auto;
   padding-inline: 3.5rem;
+}
+
+.header {
+  margin-top: 2.25rem;
 }
 
 .notice {
