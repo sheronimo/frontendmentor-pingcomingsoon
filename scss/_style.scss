@@ -12,13 +12,13 @@ body {
 	text-align: center;
 	line-height: 1.5;
 	padding-block: 3.125rem;
+	padding-inline: 3.5rem;
 }
 
 // Container Utility
 .container {
 	max-width: $max-width;
 	margin-inline: auto;
-	padding-inline: 3.5rem;
 }
 
 // Header
