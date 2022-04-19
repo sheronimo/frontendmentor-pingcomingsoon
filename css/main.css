@@ -101,4 +101,12 @@ body {
 }
 .notice .subscribe-form .btn:hover {
   background-color: hsl(224deg, 87%, 70%);
+}
+
+.promo {
+  margin-top: 4.75rem;
+}
+
+.footer {
+  margin-top: 4.5rem;
 }/*# sourceMappingURL=main.css.map */
