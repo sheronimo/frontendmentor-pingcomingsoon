@@ -65,8 +65,8 @@ body {
 				}
 
 				&:focus {
-					border: 0;
-					border-color: $clr-primary-400;
+					outline: 3px solid $clr-primary-400;
+					outline-offset: 3px;
 				}
 			}
 
@@ -92,6 +92,11 @@ body {
 
 			&:hover {
 				background-color: hsl(224, 87%, 70%);
+			}
+
+			&:focus {
+				outline: 3px solid $clr-primary-400;
+				outline-offset: 3px;
 			}
 		}
 	}

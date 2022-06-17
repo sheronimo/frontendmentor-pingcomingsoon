@@ -93,8 +93,8 @@ body {
   color: hsl(223deg, 100%, 88%);
 }
 .notice .subscribe-form .form-group .email:focus {
-  border: 0;
-  border-color: hsl(223deg, 87%, 63%);
+  outline: 3px solid hsl(223deg, 87%, 63%);
+  outline-offset: 3px;
 }
 .notice .subscribe-form .form-group .error {
   display: none;
@@ -116,6 +116,10 @@ body {
 }
 .notice .subscribe-form .btn:hover {
   background-color: hsl(224deg, 87%, 70%);
+}
+.notice .subscribe-form .btn:focus {
+  outline: 3px solid hsl(223deg, 87%, 63%);
+  outline-offset: 3px;
 }
 
 .promo {
